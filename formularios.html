@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+
+            <legend>Informações básicas de um usuário</legend>
+            <fieldset>
+                <legend>Nome</legend>
+                <label for="name">Nome de usuário</label>
+                <input id="name" name="name" type="text">
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Gênero</legend>
+                <label for="male">Masculo</label>
+                <input id="male" name="male" type="checkbox" value="Masculino">
+                <label for="female">Feminino</label>
+                <input id="female" name="female" type="checkbox" value="Feminino">
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Opções adicionais</legend>
+                <label for="tshirt-color">Cor da camisa</label>
+                <input type="color" name="tshirt-color" id="tshirt-color">
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <label for="schedule">Horário de agendamento</label>
+                <input type="datetime-local" name="schedule" id="schedule">
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>E-mail</legend>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Imagem</legend>
+                <label for="photo">Foto:</label>
+                <input type="file" id="photo" name="photo">
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Imagem 2</legend>
+                <label for="photo2" Foto:></label>
+                <input type="image" src="https://estacio.br/assets/imgs/header/logo-black.svg" alt="photo2">
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Mês</legend>
+                <label for="month">Mês</label>
+                <input type="month" name="month" id="month">
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Idade</legend>
+                <label for="number">Idade:</label>
+                <input type="number" name="age" id="age">
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <Legend>Password</Legend>
+                <label for="password">Digite sua Senha:</label>
+                <input type="password" name="password" id="password">
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Gênero (radio)</legend>
+                <label for="gender2">Masculino</label>
+                <input type="radio" name="gender2" id="gender2">
+                <label for="gender2">Masculino</label>
+                <input type="radio" name="gender2" id="gender2">
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <label for="lickert">Lickert</label>
+                <input type="range" name="lickert" id="lickert">
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Número de Celular</legend>
+                <label for="phone">Celular</label>]
+                <input type="tel" name="phone" id="phone">
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Área de texto livre</legend>
+                <textarea name="description" id="descriptiob" cols="30" rows="10"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Opções</legend>
+                <select name="options" id="options"></select>
+                <option value="options1">Opção 1</option>
+                <option value="options2">Opção 2</option>
+                <option value="options3">Opção 3</option>
+                <option value="options4">Opção 4</option>
+            </fieldset>
+        </fieldset>
+        <input type="reset" value="limpar">
+    </form>
+
+</body>
+
+</html>
